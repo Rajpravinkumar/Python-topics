@@ -1,41 +1,19 @@
-# Display Statement
-print("Welcome to EK Academy")
-print('Happy Learning of Python')
-print("Raja's")
-print('"Hardwork"')
-print("Raja's", '"Hardwork"')
-print("Raja's " + '"Hardwork"')
-print("10", "20", '30', sep = " | ")
-print('''
-                    Leave Letter
-                                            12/12/24
-                                            
-From 
-    EK Academy
-    Thanjavur    
-''')
-print("Today is \n\t Thursday")
-print("Today is", end =" ")
-print("Thursday")
-print("#" * 30)
 
-# Display Statement
-print("Welcome to EK Academy")
-print('Happy Learning of Python')
-print("Raja's")
-print('"Hardwork"')
-print("Raja's", '"Hardwork"')
-print("Raja's " + '"Hardwork"')
-print("10", "20", '30', sep = " | ")
-print('''
-                    Leave Letter
-                                            12/12/24
-                                            
-From 
-    EK Academy
-    Thanjavur    
-''')
-print("Today is \n\t Thursday")
-print("Today is", end =" ")
-print("Thursday")
-print("#" * 30)
+
+# 002.Assignment statement and basic data type
+
+a = 10 #assignment statement - allocates memory space for a and store data 10 in a 
+print(a)
+print(type(a)) # int
+
+b = 10.34
+print(b)
+print(type(b)) # float
+
+c = "Hello"
+print(c)
+print(type(c)) # string
+
+d = True
+print(d)
+print(type(d))
